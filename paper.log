@@ -1,8 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  11 MAR 2014 15:19
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  11 MAR 2014 17:12
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**paper
+**paper.tex
 (./paper.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
@@ -179,18 +180,18 @@ Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
 (./paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 (/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -254,109 +255,88 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 24.
+LaTeX Info: Redefining \subref on input line 22.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 50.
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Missing character: There is no é in font cmr8!
-Missing character: There is no é in font cmr8!
-
-! Misplaced alignment tab character &.
-<argument> ...of Biomedical Engineering, Science &
-                                                   Health Systems, Drexel Un...
-l.50  \maketitle
-                
-? 
-
-Underfull \hbox (badness 2486) in paragraph at lines 50--50
-[][]\OT1/cmr/m/sc/8 R. Dour-sat \OT1/cmr/m/n/8 is with School of Biomed-i-cal E
-n-gi-neer-ing,
+Underfull \hbox (badness 2326) in paragraph at lines 45--45
+\OT1/cmr/m/n/8 ence and Health Sys-tems, Drexel Uni-ver-sity, USA. E-mail:
  []
 
 
-Underfull \hbox (badness 3049) in paragraph at lines 50--50
-\OT1/cmr/m/n/8 Sci-ence  Health Sys-tems, Drexel Uni-ver-sity, USA. E-mail:
- []
-
-Missing character: There is no é in font cmr8!
-
-Underfull \hbox (badness 1728) in paragraph at lines 55--67
+Underfull \hbox (badness 1728) in paragraph at lines 52--64
 \OT1/cmr/bx/n/8 Keywords. \OT1/cmr/m/n/8 Agent-based mod-el-ing, Cel-lu-lar au-
 tomata, Bi-
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+[1{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 167.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 162.
 
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 162.
 
 <figures/flowchart.pdf, id=16, 569.12625pt x 284.06125pt>
 File: figures/flowchart.pdf Graphic file (type pdf)
 
 <use figures/flowchart.pdf>
-Package pdftex.def Info: figures/flowchart.pdf used on input line 193.
+Package pdftex.def Info: figures/flowchart.pdf used on input line 188.
 (pdftex.def)             Requested size: 227.64894pt x 113.62247pt.
  [2 <./figures/flowchart.pdf>]
 <figures/corbu.pdf, id=116, 569.12625pt x 569.12625pt>
 File: figures/corbu.pdf Graphic file (type pdf)
  <use figures/corbu.pdf>
-Package pdftex.def Info: figures/corbu.pdf used on input line 317.
+Package pdftex.def Info: figures/corbu.pdf used on input line 312.
 (pdftex.def)             Requested size: 227.64894pt x 209.18987pt.
-Missing character: There is no é in font cmti10!
 
 [3 <./figures/corbu.pdf>]
 <figures/morpho.pdf, id=147, 569.12625pt x 569.12625pt>
 File: figures/morpho.pdf Graphic file (type pdf)
 
 <use figures/morpho.pdf>
-Package pdftex.def Info: figures/morpho.pdf used on input line 374.
+Package pdftex.def Info: figures/morpho.pdf used on input line 369.
 (pdftex.def)             Requested size: 227.64894pt x 227.64647pt.
 
 <figures/paramInfluences.pdf, id=148, 578.16pt x 578.16pt>
 File: figures/paramInfluences.pdf Graphic file (type pdf)
 
 <use figures/paramInfluences.pdf>
-Package pdftex.def Info: figures/paramInfluences.pdf used on input line 386.
+Package pdftex.def Info: figures/paramInfluences.pdf used on input line 381.
 (pdftex.def)             Requested size: 227.64894pt x 227.64288pt.
 
 <figures/manyConfs.pdf, id=149, 578.16pt x 578.16pt>
 File: figures/manyConfs.pdf Graphic file (type pdf)
 
 <use figures/manyConfs.pdf>
-Package pdftex.def Info: figures/manyConfs.pdf used on input line 409.
+Package pdftex.def Info: figures/manyConfs.pdf used on input line 404.
 (pdftex.def)             Requested size: 227.64894pt x 227.64288pt.
 
 <figures/diffImprint.pdf, id=150, 505.89pt x 505.89pt>
 File: figures/diffImprint.pdf Graphic file (type pdf)
 
 <use figures/diffImprint.pdf>
-Package pdftex.def Info: figures/diffImprint.pdf used on input line 466.
+Package pdftex.def Info: figures/diffImprint.pdf used on input line 460.
 (pdftex.def)             Requested size: 227.64894pt x 227.64839pt.
  [4 <./figures/morpho.pdf> <./figures/paramInfluences.pdf>] [5 <./figures/manyC
 onfs.pdf> <./figures/diffImprint.pdf>]
 <figures/plots3d.pdf, id=366, 505.89pt x 505.89pt>
 File: figures/plots3d.pdf Graphic file (type pdf)
  <use figures/plots3d.pdf>
-Package pdftex.def Info: figures/plots3d.pdf used on input line 513.
+Package pdftex.def Info: figures/plots3d.pdf used on input line 507.
 (pdftex.def)             Requested size: 227.64894pt x 227.64839pt.
 
 [6 <./figures/plots3d.pdf>]
@@ -364,20 +344,20 @@ Package pdftex.def Info: figures/plots3d.pdf used on input line 513.
 File: figures/Atlantis.png Graphic file (type png)
 
 <use figures/Atlantis.png>
-Package pdftex.def Info: figures/Atlantis.png used on input line 603.
+Package pdftex.def Info: figures/Atlantis.png used on input line 597.
 (pdftex.def)             Requested size: 106.2403pt x 119.06633pt.
  <figures/example.png, id=715, 441.65pt x 441.65pt>
 File: figures/example.png Graphic file (type png)
 
 <use figures/example.png>
-Package pdftex.def Info: figures/example.png used on input line 603.
+Package pdftex.def Info: figures/example.png used on input line 597.
 (pdftex.def)             Requested size: 116.35252pt x 116.3493pt.
 
 <figures/applicationcorrect.jpg, id=716, 463.9734pt x 505.89pt>
 File: figures/applicationcorrect.jpg Graphic file (type jpg)
 
 <use figures/applicationcorrect.jpg>
-Package pdftex.def Info: figures/applicationcorrect.jpg used on input line 611.
+Package pdftex.def Info: figures/applicationcorrect.jpg used on input line 605.
 
 (pdftex.def)             Requested size: 227.64894pt x 248.21246pt.
  [7 <./figures/Atlantis.png> <./figures/example.png> <./figures/applicationcorr
@@ -430,14 +410,14 @@ Underfull \hbox (badness 1092) in paragraph at lines 226--231
 File: figures/convergenceRents.pdf Graphic file (type pdf)
 
 <use figures/convergenceRents.pdf>
-Package pdftex.def Info: figures/convergenceRents.pdf used on input line 839.
+Package pdftex.def Info: figures/convergenceRents.pdf used on input line 832.
 (pdftex.def)             Requested size: 227.64894pt x 161.0541pt.
 
 <figures/ConvergenceSegreg.pdf, id=731, 844.15375pt x 597.23125pt>
 File: figures/ConvergenceSegreg.pdf Graphic file (type pdf)
 
 <use figures/ConvergenceSegreg.pdf>
-Package pdftex.def Info: figures/ConvergenceSegreg.pdf used on input line 841.
+Package pdftex.def Info: figures/ConvergenceSegreg.pdf used on input line 834.
 (pdftex.def)             Requested size: 227.64894pt x 161.0541pt.
  [10] [11
 
@@ -446,11 +426,11 @@ ux) )
 Here is how much of TeX's memory you used:
  3653 strings out of 493633
  53809 string characters out of 3143378
- 124084 words of memory out of 3000000
+ 125084 words of memory out of 3000000
  6886 multiletter control sequences out of 15000+200000
  14058 words of font info for 53 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
- 44i,14n,45p,1364b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,14n,45p,1482b,352s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
 pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
@@ -474,7 +454,7 @@ e/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/
 exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2011/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2011/texm
 f-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on paper.pdf (11 pages, 3823284 bytes).
+Output written on paper.pdf (11 pages, 3824561 bytes).
 PDF statistics:
  826 PDF objects out of 1000 (max. 8388607)
  578 compressed objects within 6 object streams

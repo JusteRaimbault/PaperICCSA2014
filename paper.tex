@@ -12,13 +12,11 @@
 
 \makeatother
 
-%\usepackage{babel}
 
 \markboth{$~$ \hfill {\rm\noun{A. Banos}, \noun{R. Doursat} and  \noun{ J. Raimbault}} \hfill $~$} {$~$ \hfill
 {\rm Urban Configuration Optimization} \hfill$~$}
 
 \pagestyle{myheadings} 
-%\setcounter{page}{151}
 
 
 \begin{document}
@@ -30,24 +28,23 @@
 \noindent {\small {\it Proceedings of ICCSA 2014
 \\Normandie University, Le Havre, France - June 23-26, 2014\\[5mm]
  }}
-% \noindent {\small {\it Journal of Nonlinear Systems and Applications
-% (2009)
-% 151--154\\
-%  Copyright $\copyright$ 2009 Watam Press \hfill http://www.watam.org/JNSA/\\[5.0mm]}}
 \end{flushleft}\Large\bf \uppercase{Generative coupled model for Urban configuration optimization} }
-%\author{\Large\bf Author Index}
+
 \author{ \noun{A. Banos}, \noun{R. Doursat} and  \noun{ J. Raimbault}
- \thanks{\noun{A. Banos} is with Géographie-Cités, UMR-CNRS 8504, Paris . E-mail:
+ \thanks{\noun{A. Banos} is with G\'eographie-Cit\'es, UMR-CNRS 8504, Paris . E-mail:
 arnaud.banos@parisgeo.cnrs.fr}
  \thanks{\noun{R. Doursat} is with School of Biomedical Engineering,
-   Science & Health Systems, Drexel University, USA. E-mail:
+   Science and Health Systems, Drexel University, USA. E-mail:
 rene.doursat@drexel.edu}
  \thanks{\noun{J. Raimbault} is with Graduate School, Ecole
    Polytechnique, France and LVMT, Ecole Nationale des Ponts et
-   Chaussées, France. E-mail:
+   Chauss\'ees, France. E-mail:
 juste.raimbault@polytechnique.edu}
-\thanks{Manuscript received March 18, 2014}}
+\thanks{Manuscript received March 18, 2014}\\[20mm]}
+
  \maketitle
+
+
 
 % Abstract----------------------------------------------------------------
 
@@ -60,12 +57,10 @@ implied in the evolution. Classic measures of description and performances
 for generated configuration are used to classify and explore generated
 patterns, and we also propose an economic evaluation of the structure
 using sensitivity of segregation models to spatial configuration.
-We can apply the model to a real-world situation, proposing an optimisation
+We can apply the model to a real-world situation, proposing an optimization
 of the repartition of activities in a zoning context. \\
 {\bf Keywords.} Agent-based modeling, Cellular automata, Bi-objective
 Pareto optimization, Evidence-based urbanism, Urban morphogenesis.}
-
-\vskip.2in
 
 
 
@@ -87,21 +82,21 @@ but is strongly consistent through the common view of urban systems
 as complex systems.
 
 In that context, Cellular Automata models (CA), in which agents (cells)
-are fixed and evolve according to the state of neighbour cells, have
+are fixed and evolve according to the state of neighbor cells, have
 been broadly studied and used. Their use in urban planning, for reproduction
 of existing urban forms and land-use patterns, was already described
 by \noun{White} and \noun{Engelen} in \cite{white1993cellular} and
 was later analysed (\cite{batty1997cellular,batty1997possible}) and
-synthetised (\cite{Bat07}) by \noun{Batty. }A recent review of possible
+synthesized (\cite{Bat07}) by \noun{Batty. }A recent review of possible
 application of CA models is done in \cite{iltanen2012cellular}. The
 possible variations of models types and applications is quite broad
-. For example, a microeconomic CA for simulation of sprawl is developped
+. For example, a microeconomic CA for simulation of sprawl is developed
 in \cite{DBM11}. Measures for sustainable development of a fast growing
 region in China are investigated in \cite{Wu96alinguistic} through
 a ``linguistic'' CA, that is that the rule are in real time updated
 thanks to interactions with the real population. Land-use modeling
 approaches are one essential point, as was the first CA model by \noun{White}
-. The two-dimensionnal dimension of the automaton is not mandatory,
+. The two-dimensionnal aspect of the automaton is not mandatory,
 as the example of the 1D CA model proposed in \cite{peeters2009space}
 that allows to show discontinuities in settlement patterns and the
 strong path-dependence of these. We propose to build a model in the
@@ -112,10 +107,10 @@ Our model is adapted from the work of \noun{Moreno} \& \textit{al}.
 effects in a CA model for modeling urban morphology. Their aim was
 to test the effects of physical proximity on urban shape, introducing
 the modeling of urban mobility through a network whose evolution is
-coupled with the evolution of the urban shape. We generalise the model,
+coupled with the evolution of the urban shape. We generalize the model,
 allowing to take into account functional properties of the urban environment.
 The concept of considering heterogeneous urban activities was introduced
-in \cite{white2006modeling} and developped in \cite{van2012activity},
+in \cite{white2006modeling} and developed in \cite{van2012activity},
 but was at our knowledge never considered from the point of view of
 physical accessibility and the impact on sprawl patterns.
 
@@ -133,7 +128,7 @@ that we have studied in the validation section.
 
 \subsection{Agents and rules}
 
-The world is a square lattice $(L_{i,j})_{1\leq i,j\leq N}$ constitued
+The world is a square lattice $(L_{i,j})_{1\leq i,j\leq N}$ constituted
 of cells that can be occupied or not (that will be denoted by a function
 $\delta(i,j,t)$, time being defined on a standard time scale $\mathbb{T}$
 which definition is introduced in \cite{golden2012modeling}, and
@@ -180,8 +175,8 @@ will determine the influence of respective parameters and the influence
 of that stochastic aspect. The growth is stopped after a fixed amount
 of time fixed by experience, so the final structure does not fill
 totally the world, what would make no sense. A good compromise has
-to be taken between ``unfinished'' structures and stationnary result
-totally biased by bord effects.
+to be taken between ``unfinished'' structures and stationary result
+totally biased by bord-effects.
 
 Figure 1 shows a ``flowchart'' describing the working of the agent-based
 model, especially what are the feedbacks between agents.
@@ -191,7 +186,7 @@ model, especially what are the feedbacks between agents.
 \begin{figure}[htp]
 \centering
 \includegraphics[width=0.45\textwidth]{figures/flowchart}
-\caption{Flowchart of the model. \\Blue arrows represent interactions and feedbacks, whereas red arrows
+\caption{Flowchart of the model. Blue arrows represent interactions and feedbacks, whereas red arrows
 are evaluation functions.}
 
 \label{fig1}
@@ -205,14 +200,14 @@ are evaluation functions.}
 
 Once a structure has been generated, one need to quantify its properties,
 either to classify it, or to compare it to other structures in an
-optimisation purpose. Therefore we need evaluation functions, that
+optimization purpose. Therefore we need evaluation functions, that
 can be both objective quantifications or fitness functions for structures.
 The following proposed measures take into account all explicative
 variables, since their distribution that is an emerging feature is
 not supposed to be known before development and are therefore essential
 to monitor, at the exception of the distance to roads ($d_{2}$) on
 which we keep always control precisely because of the network development
-rule (fixed distance $d_{s}$ over whoch a road is built).
+rule (fixed distance $d_{s}$ over which a road is built).
 
 
 \paragraph{Morphology}
@@ -231,7 +226,7 @@ D(t)=\left[\frac{1}{\sum_{i,j}\delta(i,j,t)}\cdot\sum_{\delta(i,j,t)\neq0}d_{1}(
 lot in quantitative geography such as in \cite{lenechet:hal-00696445},
 is used to quantify the polycentric character of the distribution
 of populated cells. It takes values between -1 and 1, a value close
-to 1 significating a strong monocentric distribution, zero is for
+to 1 corresponding to a strong monocentric distribution, zero is for
 totally random distribution and -1 for a ``chessboard-like'' distribution
 (one cell over two is occupied). Polycentric distribution will have
 small positives values according to the size and respective distance
@@ -255,7 +250,7 @@ variance of the distribution.
 \paragraph{Network performance}
 
 Because of the way it evolves, the only loops in the network are the
-initial ones. Therefore, it has no sense to evaluate robustess or
+initial ones. Therefore, it has no sense to evaluate robustness or
 clustering coefficient of the network. However, since the generated
 network is supposed to simulate the mobility network, we can evaluate
 as suggested in \cite{banos2012towards} its performance through its
@@ -301,7 +296,7 @@ description of the model is provided in supplementary material S1.
 \section{Results}
 
 The model was implemented in NetLogo 5.2 (\cite{NetLogo}). Plots
-and charts are managed with R after export into standardised data
+and charts are managed with R after export into standardized data
 (\cite{R}). Primary treatment of GIS Data (for most hand vectorization
 of simple raster data) is handled with QGIS (\cite{QGIS_software}).
 See supplementary material S2 for implementation details needed for
@@ -315,9 +310,9 @@ exact reproducibility.
 \begin{figure}[htp]
 \centering
 \includegraphics[trim=1cm 3cm 0.5cm 0cm,width=0.45\textwidth]{figures/corbu}
-\caption{Typical patterns reproduce \noun{ Le Corbusier} analysis of ``human settlements'' When trying to theorize urban planning by first analysing ``by hand''
+\caption{Typical patterns reproduce \noun{ Le Corbusier} analysis of ``human settlements'' When trying to theorize urban planning by first analyzing ``by hand''
 the form of cities, \noun{ Le Corbusier}
-has enlighted 3 types of settlements, that are radioconcentric cities,
+has enlighten 3 types of settlements, that are radio-concentric cities,
 linear cities along communication roads and the rural settlements.
 We were able to reproduce this typology by playing with values of
 weights (first only $d_{1}=1$, second only $d_{2}=1$ and third $d_{1}$and
@@ -340,12 +335,12 @@ terminates since the number of connected components in the network
 is then strictly decreasing). Different configurations of the weights
 allow to generate very different structures. The obtained patterns
 for extreme values of parameters (e. g. with only influence of density
-on values, or of distance to centres) were quite the one expected
+on values, or of distance to centers) were quite the one expected
 as there is in such case less emergent behavior. It is striking to
 note that some characteristic patterns exactly correspond to the structures
-that \noun{Le Corbusier} has analysed when trying to build a typology
-of the \textit{3 établissements humains}\textit{\small{} }(human settlements)
-as it is sumed up by \noun{Mangin} in \cite{mangin2004ville} (see
+that \noun{Le Corbusier} has analyzed when trying to build a typology
+of the \textit{3 \'Etablissements humains}\textit{\small{} }(human settlements)
+as it is summed up by \noun{Mangin} in \cite{mangin2004ville} (see
 figure 2 for details).
 
 
@@ -371,19 +366,19 @@ structures are very close and may sometimes not be distinguish through
 our simple indicators. The area close to zero corresponds to ``unfinished''
 growth, that is structures that occupy only a small part of the world,
 that does not allow to compare directly with structure of bigger
-magnitude.]{\includegraphics[width=0.45\textwidth]{figures/morpho}}\\
+magnitude.]{\includegraphics[width=0.45\textwidth]{figures/morpho}}\hfill{}
 \subfloat[Influence of each parameter
 on the location of the structure in the morphological plane. Color
 darkness correspond to the relative weight of the parameter in each
 case. If the previous plot showed that extreme cases were located
-at expected places, this one shows that dark point are quite uniformaly
+at expected places, this one shows that dark point are quite uniformly
 distributed for the role of centers, accessibility and roads. That
 means that some combinations created some ``chaos'' in the location
-of structures. Only density weight gives one predictible result: the
+of structures. Only density weight gives one predictable result: the
 fact that the cloud of points in low densities corresponds to great
 influence of density in growth. However, the could at the right of
 the plot shows that interaction between weights quickly limits that
-predictibility.]{\includegraphics[width=0.45\textwidth]{figures/paramInfluences}}
+predictability.]{\includegraphics[width=0.45\textwidth]{figures/paramInfluences}}
 
 \caption{Morphological classification of structures.}
 
@@ -419,13 +414,12 @@ close to the distribution. The shape of distributions translates the
 small sensitivity of the model to spatial configuration, since it
 covers at most one tenth of the range of output functions (0.1/1 for
 density, 1/10 for accessibility e. g.). That confirms the consistency
-of the model since we expected the output to be quite independant
+of the model since we expected the output to be quite independent
 of initial positions and that their comparison could lead to statistically
 consistent results. That allows also to fix the number of repetition
 needed to obtain a certain level of statistical significance in the
-outputs of the model : for example, under asumption of normal
-distribution for an indicator and its mean, we need $n=\sigma ^{2}
-\cdot $ to have a 95\% confidence interval on the calculated mean.}
+outputs of the model : for example, under assumption of normal
+distribution for an indicator and its mean, with $\sigma = 0.2$ supposed constant and estimated, we need $n=\frac{2\sigma\cdot 1.96 }{0.1}^{2}\simeq60 $  repetitions to have a 95\% confidence interval of length 0.1 on the calculated mean.}
 
 \label{fig4}
 
@@ -456,7 +450,7 @@ weights to each parameter. Given the numerical values of deviations
 conclude that outputs are significantly less sensitive to spatial
 positions than to topology of activities and parameters values (as
 the exploration of parameter space results show in the following).
-That justify the small number of repetition needed to have reasonnable
+That justify the small number of repetition needed to have reasonable
 values.
 
 
@@ -466,7 +460,7 @@ values.
 \includegraphics[width=0.45\textwidth]{figures/diffImprint}
 \caption{Morphological projection of symmetric
 differences between configurations for both update types.
-Each point corresponds to many realisations (5) for a given value
+Each point corresponds to many realizations (50) for a given value
 of parameters. Each time, both structures for continuous ($N=1$)
 and sequential ($N=20$) are generated, symmetric difference is computed
 and projected in the morphologic plan. Points are colored according
@@ -476,10 +470,10 @@ frequent configurations) by the relative size of the configuration
 (large configurations correspond to large difference and are therefore
 more significant). The wide spread shows a strong sensitivity. An
 other plot of superposed imprints for each type of update showed quite
-disjoint sets, what confirms this sensitivity. It is however relativised
+disjoint sets, what confirms this sensitivity. It is however relativized
 by the concentration here of significant points, which means that
 side effects are ``constant''. Therefore taking a compromise between
-two types of updates should give stable and reasonnable results.}
+two types of updates should give stable and reasonable results.}
 
 \label{fig5}
 
@@ -495,7 +489,7 @@ that are built at each time step. That comes from the fact that at
 each time step, houses are built simultaneously without update of
 patches values. It is a consistent view since real value functions
 should have a certain response time that we can suppose of the magnitude
-of $\tau$. However this paradigm can be limitated and it is necessary
+of $\tau$. However this paradigm can be limited and it is necessary
 to find a compromise value for $N$ that leads to reasonable configurations.
 We can explore a grid of the main parameter space (weights of variables)
 and at each time generate patterns corresponding to a ``continuous''
@@ -504,7 +498,7 @@ calculate the symmetric difference $\mathcal{D}=\{(i,j)|\delta^{cont}(i,j,t_{f}^
 and plot the corresponding sets in the morphological plan. Results
 are shown in figure 5, including a colored representation of significance
 of points. We conclude that the model is highly sensitive, but that
-bord effect stay the same so finding a good compromise by experience
+bord-effect stay the same so finding a good compromise by experience
 (giving ``consistent'' structure) should solve the problem.
 
 
@@ -531,13 +525,13 @@ We explored a grid of the 4-dimensional space of the ``main'' parameters,
 the relative weights of variables, to evaluate the global behavior
 of outputs when parameters vary. Other parameters such as $r$ or
 $d_{s}$ were not included in the exploration because they have real
-proxy that we can reasonnably fix (around 5 cells seemed in general
+proxy that we can reasonably fix (around 5 cells seemed in general
 to generate the structures closer to the real world, what is significant
 whatever the scale of application, as the size of a district, it gives
 50m, characteristic size of blocs, of the city 500m size of a district
 and of the system of cities 5km characteristic distance between cities).
 Step was 0.2 for each parameters, with 5 repetitions for each combinations,
-what lead to the calculation of aroun 3200 configurations. Examples
+what lead to the calculation of around 3200 configurations. Examples
 of surfaces defined on the space of two parameters are shown in figure
 6. For each measure, we chose to plot against 2 parameters out of
 the 4 possible dimensions, whose were supposed to have more influence
@@ -555,12 +549,12 @@ regarding initial conditions as we stand before.
 
 \subsection{Concrete application}
 
-Since we have shown that outputs on which we want to optimise, such
+Since we have shown that outputs on which we want to optimize, such
 as accessibility to activities or network performance, are significantly
 more sensible to initial configuration of activities than to spatial
-distribution, we can apply the model to the optimisation of activities
+distribution, we can apply the model to the optimization of activities
 repartition, given an existing spatial structure. That situation can
-occur in a planning problem, then one has to decide possible landuses
+occur in a planning problem, then one has to decide possible land-uses
 of predefined zones.
 
 The concrete situation will consist on the planning from scratch of
@@ -577,7 +571,7 @@ like to study if a more optimal planning may have been done. We fix
 a value of parameters translating the situation, that is : high influence
 of activities ($c_{4}=1$) because agents will want to have accessible
 home, workplace and station; medium influence of density ($c_{1}=0.7$)
-because the houses have to fill reasonnably the available areas; no
+because the houses have to fill reasonably the available areas; no
 influence fo roads since we suppose that the initial network is already
 built and has a few influence because of the scale; and no influence
 of centers because centers are here abstract entities representing
@@ -595,12 +589,12 @@ fitness functions in our case). Results are shown in figure 7.
 \centering
 
 \subfloat[Left: existing masterplan
-for the district as it has been realised. Areas correspond to colored
+for the district as it has been realized. Areas correspond to colored
 zones, and actual activities correspond to the color. Station, not
 mentioned is in the upper left (see center positions in model); Right:
 example of obtained configuration, color correspond to possible distribution
 of activities.]{\includegraphics[width=0.21\textwidth]{figures/Atlantis}\hfill{}\includegraphics[width=0.23\textwidth]{figures/example}
-}\\
+}\hfill{}
 \subfloat[Pareto plot of configuration
 in the plan economic performance/accessibility. Green point corresponds
 to the real situation, that is in fact not so far from the Pareto
@@ -621,12 +615,12 @@ are totally mixed.]{\includegraphics[width=0.45\textwidth]{figures/applicationco
 We plot the configuration in the plan corresponding to the two objectives
 and we naturally obtain a Pareto-front of ``optimal solutions''.
 We observe that the real configuration is not so far to be optimal;
-although it favorises more accessibility than economic performance.
+although it favors more accessibility than economic performance.
 By examining two optimal points that are good compromises, we see
 that the corresponding combinations of activities are one where they
 are maximally mixed (totally heterogeneous repartition). That is an
 interesting fact and may be a clue towards evidences for more mixed
-landuses in planning. We conclude that the application is efficient,
+land-uses in planning. We conclude that the application is efficient,
 since it allows to propose an optimal planning regarding these criteria
 in such a situation. It could be generically used by planners in similar
 situations (staying very careful on the conditions of application).
@@ -640,18 +634,17 @@ model may be useful for evidence-based decision-making in urban planning.
 However, many aspects can be discussed as they raise crucial questions
 and would need further explorations.
 
-\bigskip{}
 
 
 
 \paragraph{Scale of the model}
 
 One ambiguity of the model is that it can be applied at several scales
-and that its agents have not necessarly correspondance in the real
+and that its agents have not necessary correspondence in the real
 world. Indeed, as we saw in results and applications, it can be used
 at the macro scale of a system of cities (settlement patterns), the
 meso scale of the city (patterns for one city) or the micro scale
-of the district (concrete application). Without going into an ontologic
+of the district (concrete application). Without going into an ontological
 debate on the quantity of abstraction of object, it can obviously
 be pointed as a huge issue. However, we argue that this multi-scale
 application is legitimate. First, a large number of urban systems
@@ -664,10 +657,10 @@ exponents of the scaling laws). Furthermore, urban form have been qualified to h
 properties (\cite{FractalCities}) what would strengthen that paradigm.
 Following \noun{Barthelemy} in \cite{2013arXiv1309.3961L} when he
 insists on the fact that the failure of most multi-agent urban models
-is that they don't focus on the ``domining'' physical process but
+is that they don't focus on the ``dominating'' physical process but
 integrate many aspect that have in reality no influence on the emergent
 properties of the system, we suppose here to have isolated at least
-``good'' proxies of domining processes.
+``good'' proxies of dominating processes.
 
 \bigskip{}
 
@@ -685,13 +678,13 @@ considering the global complex network of cities such as in \cite{andersson2003u
 have also reproduced well existing patterns in urban systems, it is
 obvious that the equivalence of approaches and the compromise that
 need to be made in each case have to be further investigated. It joins
-the fundamental issue, already implicitely raised in the previous
-point, of the existence of a minimal dimension for a generalised representation
+the fundamental issue, already implicitly raised in the previous
+point, of the existence of a minimal dimension for a generalized representation
 of urban systems. Concretely in our case, attractivity of centers
 is a proxy for economic processes, and although the model does not
 directly include economic considerations, they are underlying, confirming
-that urban processes are strongly interdependant. The problem would
-be to understand how general the dependance is and if a generalised
+that urban processes are strongly interdependent. The problem would
+be to understand how general the dependance is and if a generalized
 minimalist formulation can be constructed. Speculations towards that
 have been proposed by \noun{Haken} in \cite{haken2003face} with the
 notion of semantic information that would be linked to properties
@@ -714,13 +707,13 @@ has been done on tries for such calibrations such as in \cite{maria2003stochasti
 but the results are not satisfying. To go in that direction, we would
 first need to apply the model with finer grain for the spatial resolution,
 i. e. on a very large world. Computational issues can appear, even
-though we optimised processes in the implementation (see supplementary
+though we optimized processes in the implementation (see supplementary
 material S2, e. g. single calculation and caching of network shortest
 paths allow a huge gain in computational complexity). But the increase
 in size can also cause methodological issues, since the amount of
 details in patterns can become too huge and bring more noise in the
 indicators, biasing the results. Therefore, an additional operation
-could be a solution, that is the extraction of the morphological enveloppe
+could be a solution, that is the extraction of the morphological envelope
 of the generated pattern, following the innovative method proposed
 in \cite{tannier:halshs-00461657,frankhauser2005multi}. Other ways
 to deal with noise such as gaussian smooth should also be investigated.
@@ -738,7 +731,7 @@ in \cite{varenne2013modeliser}) between the two models. Indeed, considering
 the sprawl at an other time scale implies simultaneous evolution of
 inhabitants, rents of buildings and values of terrain. Of course such
 a coupling would lead to a completely different model that would need
-to be explored again and that woulf appliable to totally different
+to be explored again and that would be appliable to totally different
 situations (as evaluation of long-term rent policies for social diversity
 for example).
 
@@ -752,10 +745,10 @@ We have proposed and explored an heterogeneous CA model to simulate
 urban growth patterns, using also a new way to evaluate economic properties
 of spatial patterns. It has shown to be able to reproduce characteristic
 urban facts of a possible typology of ``human settlements'' (cf
-3.1). Furthermore the model was appliable to a concrete situation
+3.1). Furthermore the model was applicable to a concrete situation
 giving an ``optimal'' (in the Pareto sense) solution to a planning
 problem in a zoning context. The results go in the direction of evidences
-for a ``mixed-use'' city, on which litterature is still poor and
+for a ``mixed-use'' city, on which literature is still poor and
 that could be the object of future work. That paradigm is proposed
 by urbanists such as \noun{Mangin} in \cite{mangin2004ville} (concept
 of the ``passing city'') and would need to be confirmed by quantitative
@@ -782,7 +775,7 @@ could never translate or predict the mechanisms of a city.
 
 \section*{Appendices}
 
-\subsection*{Appendice A : Description of the agent-based model for economic evaluation}
+\subsection*{Appendix A : Description of the agent-based model for economic evaluation}
 
 \subsubsection*{Purpose of use}
 
@@ -817,12 +810,12 @@ At each time step:
 \begin{itemize}
 \item Already present households may decide to move to an other inoccupied
 house, depending on the condition $\frac{v(i(k),j(k))}{v_{max}}\cdot\frac{w(k,t)-r(i(k),j(k),t)}{max_{k}(w(k,t)-r(i(k),j(k),t))}<\epsilon$,
-where espilon is a threshold parameter fixed. They occupy the better
-house possible according to $\frac{v}{r}$. If no house is disponible,
+where $\epsilon$ is a threshold parameter fixed. They occupy the better
+house possible according to $\frac{v}{r}$. If no house is available,
 they die (leave the city)
 \item $N_{i}$ new immigrant come, with a random wealth $w\sim\mathcal{N}(m,\sigma)$
-whith $\sigma$ parameter small regarding $m$, and occupy best free
-houses (maximal number of immigrant is fixed by disponible houses).
+with $\sigma$ parameter small regarding $m$, and occupy best free
+houses (maximal number of immigrant is fixed by available houses).
 \item Rents are updated, set to the mean within a given radius $r_{e}$
 of wealth of households and rents of surrounding houses (gentrification
 effect).
@@ -833,22 +826,22 @@ effect).
 
 
 
-\begin{figure}[htp]
+\begin{figure*}[htp]
 \centering
 
-\subfloat[Time-series of rents.]{\includegraphics[width=0.45\textwidth]{figures/convergenceRents}}\\
+\subfloat[Time-series of rents.]{\includegraphics[width=0.45\textwidth]{figures/convergenceRents}}\hfill{}
 \subfloat[Time-series of segregation indexes.]{\includegraphics[width=0.45\textwidth]{figures/ConvergenceSegreg}
 }
 
 \caption{Convergence of the model. For each plot, each three curves correspond
 to a configuration of parameters. The values are calculated on 20
-repetitions of the economic ABM, and the calculation is repeted on
+repetitions of the economic ABM, and the calculation is repeated on
 100 initial spatial configuration, for which the error bars of distribution
-are ploted for each point.}
+are plotted for each point.}
 
 \label{fig8}
 
-\end{figure}
+\end{figure*}
 
 
 
@@ -856,7 +849,7 @@ are ploted for each point.}
 
 After a certain number of time steps (around 100 in practice) the
 system freezes concerning indicators of cumulated wealth and segregation
-index, as it is explained in the litterature. Figure 1 shows the convergence
+index, as it is explained in the literature. Figure 1 shows the convergence
 of segregation index and mean rent of houses on many repetitions of
 the model for different values of parameters.
 
@@ -868,9 +861,10 @@ d=\frac{1}{2max_{h}(w(h))}\cdot\frac{\sum_{h'\neq h}\frac{\left|w(h)-w(h')\right
 \]
 
 
+\bigskip{}
+\bigskip{}
 
-
-\subsection*{Appendice B : Source code of the implementation of the model}
+\subsection*{Appendix B : Source code of the implementation of the model}
 
 Core source code of the NetLogo implementation of the model, sample
 of data used for applications and source code for generation of plots
