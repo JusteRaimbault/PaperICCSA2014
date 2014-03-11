@@ -1,0 +1,237 @@
+\begin{thebibliography}{10}
+
+\bibitem{batty2013new}
+Michael Batty.
+\newblock {\em The New Science of Cities}.
+\newblock MIT Press, 2013.
+
+\bibitem{heppenstall2012agent}
+Alison~J Heppenstall, Andrew~T Crooks, and Linda~M See.
+\newblock {\em Agent-based models of geographical systems}.
+\newblock Springer, 2012.
+
+\bibitem{pumain2012multi}
+Denise Pumain.
+\newblock Multi-agent system modelling for urban systems: The series of simpop
+  models.
+\newblock In {\em Agent-based models of geographical systems}, pages 721--738.
+  Springer, 2012.
+
+\bibitem{portugali2012book}
+Juval Portugali, Han Meyer, Egbert Stolk, and Ekim Tan.
+\newblock {\em Complexity theories of cities have come of age: an overview with
+  implications to urban planning and design}.
+\newblock Springer, 2012.
+
+\bibitem{haken2003face}
+Herman Haken and Juval Portugali.
+\newblock The face of the city is its information.
+\newblock {\em Journal of Environmental Psychology}, 23(4):385--408, 2003.
+
+\bibitem{hillier1976space}
+Bill Hillier, Adrian Leaman, Paul Stansall, and Michael Bedford.
+\newblock Space syntax.
+\newblock {\em Environment and Planning B: Planning and Design}, 3(2):147--185,
+  1976.
+
+\bibitem{white1993cellular}
+Roger White and Guy Engelen.
+\newblock Cellular automata and fractal urban form: a cellular modelling
+  approach to the evolution of urban land-use patterns.
+\newblock {\em Environment and planning A}, 25(8):1175--1199, 1993.
+
+\bibitem{batty1997cellular}
+Michael Batty.
+\newblock Cellular automata and urban form: a primer.
+\newblock {\em Journal of the American Planning Association}, 63(2):266--274,
+  1997.
+
+\bibitem{batty1997possible}
+Michael Batty and Yichun Xie.
+\newblock Possible urban automata.
+\newblock {\em Environment and Planning B}, 24:175--192, 1997.
+
+\bibitem{Bat07}
+Michael Batty.
+\newblock {\em Cities and Complexity: Understanding Cities with Cellular
+  Automata, Agent-based Models, and Fractals}.
+\newblock MIT Press, 2007.
+
+\bibitem{iltanen2012cellular}
+Sanna Iltanen.
+\newblock Cellular automata in urban spatial modelling.
+\newblock In {\em Agent-based models of geographical systems}, pages 69--84.
+  Springer, 2012.
+
+\bibitem{DBM11}
+Geoffrey Caruso, Gilles Vuidel, Jean Cavailhes, Pierre Frankhauser, Dominique
+  Peeters, and Isabelle Thomas.
+\newblock Morphological similarities between dbm and a microeconomic model of
+  sprawl.
+\newblock {\em Journal of Geographical Systems}, 13:31--48, 2011.
+
+\bibitem{Wu96alinguistic}
+Fulong Wu.
+\newblock A linguistic cellular automata simulation approach for sustainable
+  land development in a fast growing region.
+\newblock {\em Computers, Environment and Urban Systems}, 20:367--87, 1996.
+
+\bibitem{peeters2009space}
+Dominique Peeters and Mark Rounsevell.
+\newblock Space time patterns of urban sprawl, a 1d cellular automata and
+  microeconomic approach.
+\newblock {\em Environment and Planning B: Planning and Design}, 36:968--988,
+  2009.
+
+\bibitem{MBB09}
+Diego Moreno, Dominique Badariotti, and Arnaud Banos.
+\newblock Un automate cellulaire pour exp{\'e}rimenter les effets de la
+  proximit{\'e} dans le processus d'{\'e}talement urbain : le mod{\`e}le
+  raumulus.
+\newblock {\em Cybergeo : European Journal of Geography}, 2009.
+
+\bibitem{moreno2007conception}
+Diego Moreno, Arnaud Banos, and Dominique Badariotti.
+\newblock Conception d'un automate cellulaire non stationnaire {\`a} base de
+  graphe pour mod{\'e}liser la structure spatiale urbaine: le mod{\`e}le remus.
+\newblock {\em Cybergeo: European Journal of Geography}, 2007.
+
+\bibitem{white2006modeling}
+Roger White.
+\newblock Modeling multi-scale processes in a cellular automata framework.
+\newblock In {\em Complex artificial environments}, pages 165--177. Springer,
+  2006.
+
+\bibitem{van2012activity}
+Jasper van Vliet, Jelle Hurkens, Roger White, and Hedwig van Delden.
+\newblock An activity-based cellular automaton model to simulate land-use
+  dynamics.
+\newblock {\em Environment and Planning-Part B}, 39(2):198, 2012.
+
+\bibitem{golden2012modeling}
+Boris Golden, Marc Aiguier, and Daniel Krob.
+\newblock Modeling of complex systems ii: A minimalist and unified semantics
+  for heterogeneous integrated systems.
+\newblock {\em Applied Mathematics and Computation}, 218(16):8039--8055, 2012.
+
+\bibitem{tsai2005quantifying}
+Yu-Hsin Tsai.
+\newblock Quantifying urban form: compactness versus' sprawl'.
+\newblock {\em Urban Studies}, 42(1):141--161, 2005.
+
+\bibitem{lenechet:hal-00696445}
+Florent Le~N{\'e}chet and Anne Aguilera.
+\newblock D{\'e}terminants spatiaux et sociaux de la mobilit{\'e}
+  domicile-travail dans 13 aires urbains fran{\c c}aises : une approche par la
+  forme urbaine, {\`a} deux {\'e}chelles g{\'e}ographiques.
+\newblock In {\em {ASRDLF 2011}}, SCHOELCHER, Martinique, July 2011.
+\newblock http://asrdlf2011.com/.
+
+\bibitem{banos2012towards}
+Arnaud Banos and Cyrille Genre-Grandpierre.
+\newblock Towards new metrics for urban road networks: Some preliminary
+  evidence from agent-based simulations.
+\newblock In {\em Agent-based models of geographical systems}, pages 627--641.
+  Springer, 2012.
+
+\bibitem{banos2012network}
+Arnaud Banos.
+\newblock Network effects in schelling's model of segregation: new evidences
+  from agent-based simulation.
+\newblock {\em Environment and Planning B: Planning and Design},
+  39(2):393--405, 2012.
+
+\bibitem{schelling1969models}
+Thomas~C Schelling.
+\newblock Models of segregation.
+\newblock {\em The American Economic Review}, 59(2):488--493, 1969.
+
+\bibitem{benenson1998multi}
+Itzhak Benenson.
+\newblock Multi-agent simulations of residential dynamics in the city.
+\newblock {\em Computers, Environment and Urban Systems}, 22(1):25--42, 1998.
+
+\bibitem{NetLogo}
+U.~Wilensky.
+\newblock Netlogo.
+\newblock Center for Connected Learning and Computer-Based Modeling,
+  Northwestern University, Evanston, IL., 1999.
+
+\bibitem{R}
+{R Core Team}.
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2013.
+
+\bibitem{QGIS_software}
+{QGIS Development Team}.
+\newblock {\em QGIS Geographic Information System}.
+\newblock Open Source Geospatial Foundation, 2009.
+
+\bibitem{mangin2004ville}
+David Mangin.
+\newblock {\em La ville franchis{\'e}e: formes et structures de la ville
+  contemporaine}.
+\newblock {\'E}ditions de la Villette Paris, 2004.
+
+\bibitem{pumain2004scaling}
+Denise Pumain.
+\newblock Scaling laws and urban systems.
+\newblock {\em Santa Fe Institute, Working Paper n 04-02}, 2:26, 2004.
+
+\bibitem{FractalCities}
+M.~Batty and P.~Longley.
+\newblock {\em Fractal Cities: A Geometry of Form and Function}.
+\newblock Academic Press, London, 1994.
+
+\bibitem{2013arXiv1309.3961L}
+R.~{Louf} and M.~{Barthelemy}.
+\newblock {Modeling the polycentric transition of cities}.
+\newblock {\em ArXiv e-prints}, September 2013.
+
+\bibitem{andersson2003urban}
+Claes Andersson, Alexander Hellervik, Kristian Lindgren, Anders Hagson, and
+  Jonas Tornberg.
+\newblock Urban economy as a scale-free network.
+\newblock {\em Physical Review E}, 68(3):036124, 2003.
+
+\bibitem{maria2003stochastic}
+Cl{\'a}udia Maria~de Almeida, Michael Batty, Antonio~Miguel Vieira~Monteiro,
+  Gilberto C{\^a}mara, Britaldo~Silveira Soares-Filho, Gustavo~Coutinho
+  Cerqueira, and C{\'a}ssio~Lopes Pennachin.
+\newblock Stochastic cellular automata modeling of urban land use dynamics:
+  empirical development and estimation.
+\newblock {\em Computers, Environment and Urban Systems}, 27(5):481--509, 2003.
+
+\bibitem{tannier:halshs-00461657}
+C{\'e}cile Tannier, Gilles Vuidel, and Pierre Frankhauser.
+\newblock {D{\'e}limitation d'ensembles morphologiques par une approche
+  multi-{\'e}chelle}.
+\newblock In J.-C. Folt{\^e}te, editor, {\em {Actes des huiti{\`e}mes
+  Rencontres de Th{\'e}o Quant}}, page~14, Besan{\c c}on, France, 2008.
+\newblock http://thema.univ-fcomte.fr/theoq/.
+
+\bibitem{frankhauser2005multi}
+Pierre Frankhauser and C{\'e}cile Tannier.
+\newblock A multi-scale morphological approach for delimiting urban areas.
+\newblock In {\em 9th Computers in Urban Planning and Urban Management
+  conference (CUPUM'05), University College London}, 2005.
+
+\bibitem{varenne2013modeliser}
+Franck Varenne, Marc Silberstein, et~al.
+\newblock {\em Mod{\'e}liser \& simuler. Epist{\'e}mologies et pratiques de la
+  mod{\'e}lisation et de la simulation, tome 1}.
+\newblock 2013.
+
+\bibitem{portugali2012complexity}
+Juval Portugali.
+\newblock Complexity theories of cities: Achievements, criticism and
+  potentials.
+\newblock In {\em Complexity Theories of Cities Have Come of Age}, pages
+  47--62. Springer, 2012.
+
+\bibitem{henri1968droit}
+Lefebvre Henri.
+\newblock Le droit {\`a} la ville.
+\newblock {\em Anthropos}, 1968.
+
+\end{thebibliography}
